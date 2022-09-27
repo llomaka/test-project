@@ -1,31 +1,33 @@
-.main_container {
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
 
-  
-  @media screen and (min-width: 320) {
-    body {
-      overflow-x: hidden;
-    }
-    width: 320px;
-  }
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
 
-  @media screen and (min-width: 480px) {
-    body {
-      overflow-x: hidden;
-    }
-    width: 480px;
-  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
-  @media screen and (min-width: 768px) {
-    body {
-      overflow-x: hidden;
-    }
-    width: 768px;
-  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0px;
+  padding: 0px;
 }
